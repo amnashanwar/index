@@ -15,25 +15,25 @@
     "preview": "http-server dist/static"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.8.1",
-    "@vue/compiler-sfc": "^3.2.12",
-    "@vue/server-renderer": "^3.2.12",
-    "autoprefixer": "^10.3.4",
+    "@vitejs/plugin-vue": "^1.9.2",
+    "@vue/compiler-sfc": "^3.2.19",
+    "@vue/server-renderer": "^3.2.19",
+    "autoprefixer": "^10.3.6",
     "express": "^4.17.1",
     "gh-pages": "^3.2.3",
     "http-server": "^13.0.2",
-    "postcss": "^8.3.6",
+    "postcss": "^8.3.8",
     "postcss-font-magician": "^3.0.0",
     "postcss-nested": "^5.0.6",
-    "sass": "^1.41.1",
+    "sass": "^1.42.1",
     "serve-static": "^1.14.1",
-    "tailwindcss": "^2.2.15",
-    "vite": "^2.5.10"
+    "tailwindcss": "^2.2.16",
+    "vite": "^2.6.2"
   },
   "dependencies": {
     "@vueuse/head": "^0.6.0",
-    "d3": "^7.0.3",
-    "vue": "^3.2.12",
+    "d3": "^7.1.1",
+    "vue": "^3.2.19",
     "vue-router": "^4.0.11"
   }
 }
