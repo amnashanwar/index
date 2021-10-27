@@ -9,20 +9,25 @@
     </p>
     <div class="flex flex-wrap mt-8 -m-2">
       <a class="bg-purple-500 btn hover:bg-purple-600" href="https://github.com/amir20">
-        <i class="w-4 h-4 mr-2 fab fa-github"></i>
+        <icon-github class="w-4 h-4 mr-2"></icon-github>
         <span>GitHub</span>
       </a>
       <a class="bg-blue-500 btn hover:bg-blue-600" href="https://www.linkedin.com/in/amirraminfar">
-        <i class="w-4 h-4 mr-2 fab fa-linkedin"></i>
+        <icon-linkedin class="w-4 h-4 mr-2"></icon-linkedin>
         <span>LinkedIn</span>
       </a>
       <a class="bg-green-600 btn hover:bg-green-700" href="https://stackoverflow.com/users/419075/amir-raminfar">
-        <i class="w-4 h-4 mr-2 fab fa-stack-overflow"></i>
+        <icon-stackoverflow class="w-4 h-4 mr-2"></icon-stackoverflow>
         <span>Stack Overflow</span>
       </a>
     </div>
   </div>
 </template>
+<script setup>
+import IconGithub from "~icons/jam/github";
+import IconStackoverflow from "~icons/jam/stackoverflow";
+import IconLinkedin from "~icons/jam/linkedin-square";
+</script>
 <script>
 import { multipier } from "../components/Waves.vue";
 import { useHead } from "@vueuse/head";
