@@ -4,15 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "node server",
-    "build": "yarn build:client && yarn build:server",
+    "build": "pnpm build:client && pnpm build:server",
     "build:client": "vite build --ssrManifest --outDir dist/client",
     "build:server": "vite build --ssr src/entry-server.js --outDir dist/server",
-    "generate": "vite build --ssrManifest --outDir dist/static && yarn build:server && node prerender",
+    "generate": "vite build --ssrManifest --outDir dist/static && pnpm build:server && node prerender",
     "serve": "cross-env NODE_ENV=production node server",
-    "predeploy": "yarn generate",
-    "deploy": "gh-pages -d dist/static -b master",
-    "prepreview": "yarn generate",
-    "preview": "http-server dist/static"
+    "preview": "pnpm generate && http-server dist/static"
   },
   "devDependencies": {
     "@iconify-json/codicon": "^1.0.7",
@@ -21,6 +18,9 @@
     "@vitejs/plugin-vue": "^1.9.2",
     "@vue/compiler-sfc": "^3.2.19",
     "@vue/server-renderer": "^3.2.19",
+    "d3-selection": "^3.0.0",
+    "d3-shape": "^3.0.1",
+    "d3-timer": "^3.0.1",
     "express": "^4.17.1",
     "gh-pages": "^3.2.3",
     "http-server": "^13.0.2",
