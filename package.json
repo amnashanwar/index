@@ -21,18 +21,17 @@
     "@vitejs/plugin-vue": "^1.9.2",
     "@vue/compiler-sfc": "^3.2.19",
     "@vue/server-renderer": "^3.2.19",
-    "autoprefixer": "^10.3.6",
     "express": "^4.17.1",
     "gh-pages": "^3.2.3",
     "http-server": "^13.0.2",
-    "postcss": "^8.3.8",
     "postcss-font-magician": "^3.0.0",
     "postcss-nested": "^5.0.6",
     "sass": "^1.42.1",
     "serve-static": "^1.14.1",
-    "tailwindcss": "^2.2.16",
     "unplugin-icons": "^0.12.17",
-    "vite": "^2.6.2"
+    "vite": "^2.6.2",
+    "vite-plugin-windicss": "^1.4.12",
+    "windicss": "^3.2.0"
   },
   "dependencies": {
     "@vueuse/head": "^0.6.0",

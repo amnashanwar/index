@@ -1,4 +1,4 @@
-import "tailwindcss/tailwind.css";
+import "virtual:windi.css";
 import "./custom.css";
 
 import App from "./App.vue";
