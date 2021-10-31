@@ -1,3 +1,6 @@
+@import "@fontsource/roboto/300";
+@import "@fontsource/playfair-display";
+
 body {
   font-family: "Roboto", sans-serif;
 }

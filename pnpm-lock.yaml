@@ -1,6 +1,8 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@fontsource/playfair-display': ^4.5.0
+  '@fontsource/roboto': ^4.5.1
   '@iconify-json/codicon': ^1.0.7
   '@iconify-json/jam': ^1.0.2
   '@iconify-json/mdi': ^1.0.7
@@ -24,6 +26,8 @@ specifiers:
   windicss: ^3.2.0
 
 dependencies:
+  '@fontsource/playfair-display': 4.5.0
+  '@fontsource/roboto': 4.5.1
   '@vueuse/head': 0.6.0_vue@3.2.20
   d3: 7.1.1
   vue: 3.2.20
@@ -67,6 +71,14 @@ packages:
     resolution: {integrity: sha512-BRYa3wcQnjS/nqI8Ac94pYYpJfojHVvVXJ97+IDCImX4Jc8W8Xv1+47enbruk+q1etOpsQNwnfFcNGw+gtPGxA==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+
+  /@fontsource/playfair-display/4.5.0:
+    resolution: {integrity: sha512-c3um+IFEznTocFPFOGJz8zsDReMVkj7Pgp/csEbvNnwqHfr/ZzvLx37m+NolhdqzpFfBFnIQ2fblVoOgQLaOag==}
+    dev: false
+
+  /@fontsource/roboto/4.5.1:
+    resolution: {integrity: sha512-3mhfL+eNPG/woMNqwD/OHaW5qMpeGEBsDwzmhFmjB1yUV+M+M9P0NhP/AyHvnGz3DrqkvZ7CPzNMa+UkVLeELg==}
+    dev: false
 
   /@iconify-json/codicon/1.0.7:
     resolution: {integrity: sha512-3s1xRIdWRpYabcI2N9gEyeXGPcPKAneWPcncHCxk2A10sGCWovwmPl102vA3uzyL4XbS3+/CItTlQMWg2hMVtg==}
