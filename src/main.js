@@ -1,16 +1,11 @@
 import "virtual:windi.css";
 import "./custom.css";
-
+import { ViteSSG } from "vite-ssg";
 import App from "./App.vue";
-import { createSSRApp } from "vue";
-import { createHead } from "@vueuse/head";
-import { createRouter } from "./router";
+import { routes } from "./router";
 
-export function createApp() {
-  const app = createSSRApp(App);
-  const head = createHead();
-  const router = createRouter();
-  app.use(router);
-  app.use(head);
-  return { app, router, head };
-}
+export const createApp = ViteSSG(
+  App,
+  { routes },
+  ({ app, router, routes, isClient, initialState }) => {}
+);
