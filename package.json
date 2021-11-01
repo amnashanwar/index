@@ -3,39 +3,36 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "node server",
-    "build": "pnpm build:client && pnpm build:server",
-    "build:client": "vite build --ssrManifest --outDir dist/client",
-    "build:server": "vite build --ssr src/entry-server.js --outDir dist/server",
-    "generate": "vite build --ssrManifest --outDir dist/static && pnpm build:server && node prerender",
-    "serve": "cross-env NODE_ENV=production node server",
-    "preview": "pnpm generate && http-server dist/static"
+    "build": "cross-env NODE_ENV=production vite-ssg build",
+    "dev": "vite --open",
+    "preview": "vite preview"
   },
   "devDependencies": {
+    "http-server": "^13.0.2"
+  },
+  "dependencies": {
+    "@fontsource/playfair-display": "^4.5.0",
+    "@fontsource/roboto": "^4.5.1",
     "@iconify-json/codicon": "^1.0.7",
     "@iconify-json/jam": "^1.0.2",
     "@iconify-json/mdi": "^1.0.7",
     "@vitejs/plugin-vue": "^1.9.2",
     "@vue/compiler-sfc": "^3.2.19",
     "@vue/server-renderer": "^3.2.19",
+    "@vueuse/head": "^0.6.0",
+    "cross-env": "^7.0.3",
+    "d3": "^7.1.1",
     "d3-selection": "^3.0.0",
     "d3-shape": "^3.0.1",
     "d3-timer": "^3.0.1",
-    "express": "^4.17.1",
-    "http-server": "^13.0.2",
     "sass": "^1.42.1",
     "serve-static": "^1.14.1",
     "unplugin-icons": "^0.12.17",
     "vite": "^2.6.2",
     "vite-plugin-windicss": "^1.4.12",
-    "windicss": "^3.2.0"
-  },
-  "dependencies": {
-    "@fontsource/playfair-display": "^4.5.0",
-    "@fontsource/roboto": "^4.5.1",
-    "@vueuse/head": "^0.6.0",
-    "d3": "^7.1.1",
+    "vite-ssg": "^0.15.6",
     "vue": "^3.2.19",
-    "vue-router": "^4.0.11"
+    "vue-router": "^4.0.11",
+    "windicss": "^3.2.0"
   }
 }
