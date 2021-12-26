@@ -17,7 +17,7 @@
     <br />
 
     <p class="text-lg font-light">
-      I currently live in the South Bay and work at Google building their internal CRM. I am a husband and father of one. I enjoy playing with my daughter,
+      I currently live in the South Bay and work at Google building their internal CRM. I am a husband and father of two litte ones. I enjoy playing with my kids,
       listening to music, reading books, cycling and weight training.
     </p>
   </div>
