@@ -4,7 +4,7 @@
     <p class="text-lg font-light">
       I am a software engineer, mentor and parent in San Francisco. I am currently an engineering manager at
       <a href="https://about.google" target="_blank" rel="noopener">Google</a>. Previously, I have worked at
-      <a target="_blank" rel="noopener" href="https://www.oracle.com/industries/utilities/products/what-is-opower.html"> Opower</a>, Capital One and a few other
+      <a target="_blank" rel="noopener" href="https://www.oracle.com/industries/utilities/opower-energy-efficiency/"> Opower</a>, Capital One and a few other
       start ups.
     </p>
     <div class="flex flex-wrap mt-8 -m-2">
