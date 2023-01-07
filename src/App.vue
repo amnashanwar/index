@@ -16,7 +16,9 @@
   </div>
 </template>
 <script setup>
-import Waves from "./components/Waves.vue";
+import { defineAsyncComponent } from 'vue';
+
+const Waves = defineAsyncComponent(() => import('./components/Waves.vue'));
 </script>
 <script>
 export default {};
