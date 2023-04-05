@@ -1,8 +1,9 @@
 {
-  "name": "amirraminfar.com",
+  "name": "amirraminfar.me",
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@8.1.1",
   "scripts": {
     "build": "cross-env NODE_ENV=production vite-ssg build",
     "dev": "vite --open",
