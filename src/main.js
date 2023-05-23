@@ -1,4 +1,4 @@
-import '@unocss/reset/normalize.css'
+import "@unocss/reset/tailwind-compat.css";
 import "virtual:uno.css";
 import "./custom.css";
 import { ViteSSG } from "vite-ssg";
