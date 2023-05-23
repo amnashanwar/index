@@ -1,11 +1,11 @@
 import { defineConfig } from "vite";
 import vuePlugin from "@vitejs/plugin-vue";
 import Icons from "unplugin-icons/vite";
-import WindiCSS from "vite-plugin-windicss";
+import UnoCSS from "unocss/vite";
 
 export default defineConfig({
   plugins: [
-    WindiCSS(),
+    UnoCSS(),
     vuePlugin(),
     Icons({
       autoInstall: true,

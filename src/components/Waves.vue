@@ -86,7 +86,7 @@ export default {
   },
 };
 </script>
-<style lang="postcss" scoped>
+<style lang="scss" scoped>
 div {
   z-index: 1;
   opacity: 0.8;

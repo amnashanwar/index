@@ -1,4 +1,5 @@
-import "virtual:windi.css";
+import '@unocss/reset/normalize.css'
+import "virtual:uno.css";
 import "./custom.css";
 import { ViteSSG } from "vite-ssg";
 import App from "./App.vue";
