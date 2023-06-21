@@ -10,34 +10,34 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@unocss/transformer-directives": "^0.52.3",
-    "critters": "^0.0.16",
+    "@unocss/transformer-directives": "^0.53.1",
+    "critters": "^0.0.19",
     "http-server": "^14.1.1",
-    "unocss": "^0.52.3"
+    "unocss": "^0.53.1"
   },
   "dependencies": {
-    "@fontsource/playfair-display": "^5.0.1",
-    "@fontsource/roboto": "^5.0.1",
+    "@fontsource/playfair-display": "^5.0.3",
+    "@fontsource/roboto": "^5.0.3",
     "@iconify-json/codicon": "^1.1.26",
     "@iconify-json/jam": "^1.1.4",
     "@iconify-json/mdi": "^1.1.52",
-    "@unocss/reset": "^0.52.3",
+    "@unocss/reset": "^0.53.1",
     "@vitejs/plugin-vue": "4.2.3",
     "@vue/compiler-sfc": "^3.3.4",
     "@vue/server-renderer": "^3.3.4",
     "@vueuse/head": "^1.1.26",
     "cross-env": "^7.0.3",
-    "d3": "^7.8.4",
+    "d3": "^7.8.5",
     "d3-selection": "^3.0.0",
     "d3-shape": "^3.2.0",
     "d3-timer": "^3.0.1",
-    "sass": "^1.62.1",
+    "sass": "^1.63.6",
     "serve-static": "^1.15.0",
-    "unplugin-icons": "^0.16.1",
-    "vite": "4.3.8",
+    "unplugin-icons": "^0.16.3",
+    "vite": "4.3.9",
     "vite-plugin-windicss": "^1.9.0",
     "vite-ssg": "^0.22.2",
     "vue": "^3.3.4",
-    "vue-router": "^4.2.1"
+    "vue-router": "^4.2.2"
   }
 }
