@@ -86,26 +86,26 @@ export default {
   },
 };
 </script>
-<style lang="scss" scoped>
+<style scoped>
 div {
   z-index: 1;
   opacity: 0.8;
   position: fixed;
   bottom: -10px;
 
-  :deep(.wave:nth-of-type(1)) {
+  :global(.wave:nth-of-type(1)) {
     fill: #a55eea;
   }
 
-  :deep(.wave:nth-of-type(2)) {
+  :global(.wave:nth-of-type(2)) {
     fill: #fed330;
   }
 
-  :deep(.wave:nth-of-type(3)) {
+  :global(.wave:nth-of-type(3)) {
     fill: #45aaf2;
   }
 
-  :deep(.wave:nth-of-type(4)) {
+  :global(.wave:nth-of-type(4)) {
     fill: #0fb9b1;
   }
 }
