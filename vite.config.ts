@@ -1,8 +1,8 @@
 import { defineConfig } from "vite";
 import vuePlugin from "@vitejs/plugin-vue";
-import Icons from "unplugin-icons/vite";
+import svgLoader from "vite-svg-loader";
 import UnoCSS from "unocss/vite";
 
 export default defineConfig({
-  plugins: [UnoCSS(), vuePlugin()],
+  plugins: [UnoCSS(), vuePlugin(), svgLoader()],
 });

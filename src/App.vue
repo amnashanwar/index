@@ -1,7 +1,8 @@
 <template>
   <Waves></Waves>
   <div class="relative z-10 flex flex-col min-h-screen">
-    <nav class="flex justify-end m-4 space-x-2">
+    <nav class="flex justify-start m-4 space-x-2">
+      <Logo class="color-blue-500 dark:color-white fill-current mr-8" />
       <router-link to="/">Home</router-link>
       <router-link to="/about">About Me</router-link>
       <router-link to="/projects">Projects</router-link>
@@ -17,11 +18,8 @@
 </template>
 <script setup>
 import { defineAsyncComponent } from "vue";
-
+import Logo from "./images/ar.svg";
 const Waves = defineAsyncComponent(() => import("./components/Waves.vue"));
-</script>
-<script>
-export default {};
 </script>
 <style scoped>
 .scale-enter-active,
