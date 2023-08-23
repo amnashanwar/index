@@ -38,7 +38,7 @@ export default {
   },
 };
 </script>
-<style scoped lang="postcss">
+<style scoped>
 .btn {
   @apply text-white py-2 px-4 m-2 rounded-3xl inline-flex items-center no-underline bg-opacity-90 hover:bg-opacity-100 transition-colors;
 }
