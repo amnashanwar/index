@@ -7,8 +7,5 @@ export default defineConfig({
   plugins: [
     UnoCSS(),
     vuePlugin(),
-    Icons({
-      autoInstall: true,
-    }),
   ],
 });

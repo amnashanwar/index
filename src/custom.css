@@ -1,8 +1,5 @@
-@import "@fontsource/roboto/300";
-@import "@fontsource/playfair-display";
-
 body {
-  font-family: "Roboto", sans-serif;
+  @apply font-sans;
   margin: 0;
 }
 
@@ -12,5 +9,5 @@ a {
 }
 
 h1 {
-  font-family: "Playfair Display", serif;
+  @apply font-playfair;
 }
