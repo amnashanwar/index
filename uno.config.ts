@@ -1,6 +1,5 @@
 import { defineConfig, presetUno, presetWebFonts, presetIcons } from "unocss";
 
-
 import transformerDirectives from "@unocss/transformer-directives";
 
 export default defineConfig({
@@ -12,14 +11,14 @@ export default defineConfig({
     presetIcons(),
     presetWebFonts({
       fonts: {
-        sans: 'Roboto:300',
+        sans: "Roboto:300",
         playfair: "Playfair Display",
       },
-    })
+    }),
   ],
   theme: {
     colors: {
       cream: "#eff0eb",
     },
   },
-})
+});

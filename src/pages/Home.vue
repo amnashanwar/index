@@ -23,10 +23,7 @@
     </div>
   </div>
 </template>
-<script setup>
-
-
-</script>
+<script setup></script>
 <script>
 import { multipier } from "../components/Waves.vue";
 import { useHead } from "@vueuse/head";

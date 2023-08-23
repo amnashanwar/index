@@ -4,8 +4,5 @@ import Icons from "unplugin-icons/vite";
 import UnoCSS from "unocss/vite";
 
 export default defineConfig({
-  plugins: [
-    UnoCSS(),
-    vuePlugin(),
-  ],
+  plugins: [UnoCSS(), vuePlugin()],
 });

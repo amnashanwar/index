@@ -35,7 +35,7 @@ export default {
         this.vis
           .append("path")
           .attr("class", "wave")
-          .style("opacity", (i + 1) / this.wavesCount / 2)
+          .style("opacity", (i + 1) / this.wavesCount / 2),
       );
       this.paths.push([]);
       this.seeds.push(Math.random());

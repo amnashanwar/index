@@ -28,7 +28,7 @@ async function createServer(root = process.cwd(), isProd = process.env.NODE_ENV 
     app.use(
       require("serve-static")(resolve("dist/client"), {
         index: false,
-      })
+      }),
     );
   }
 
@@ -66,7 +66,7 @@ if (!isTest) {
   createServer().then(({ app }) =>
     app.listen(3000, () => {
       console.log("http://localhost:3000");
-    })
+    }),
   );
 }
 
