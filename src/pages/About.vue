@@ -17,7 +17,7 @@
     <br />
 
     <p class="text-lg font-light">
-      I currently live in the East Bay and work at Google on <a href="https://www.android.com/auto/">Android Auto</a>
+      I currently live in the East Bay and work at Google on <a href="https://www.android.com/auto/">Android Auto </a>
       <a href="https://assistant.google.com/">Assistant</a>. I am a husband and father of two litte ones. I enjoy playing with my kids, listening to music,
       reading books, cycling and weight training.
     </p>
