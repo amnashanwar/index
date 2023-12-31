@@ -10,15 +10,15 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@unocss/transformer-directives": "^0.56.5",
+    "@unocss/transformer-directives": "^0.58.2",
     "critters": "^0.0.20",
     "http-server": "^14.1.1",
     "prettier": "^3.0.3",
-    "unocss": "^0.56.5"
+    "unocss": "^0.58.2"
   },
   "dependencies": {
-    "@iconify-json/ph": "^1.1.6",
-    "@unocss/reset": "^0.56.5",
+    "@iconify-json/ph": "^1.1.9",
+    "@unocss/reset": "^0.58.2",
     "@vitejs/plugin-vue": "4.4.0",
     "@vue/compiler-sfc": "^3.3.4",
     "@vue/server-renderer": "^3.3.4",
@@ -28,9 +28,9 @@
     "d3-selection": "^3.0.0",
     "d3-shape": "^3.2.0",
     "d3-timer": "^3.0.1",
-    "lightningcss": "^1.22.0",
+    "lightningcss": "^1.22.1",
     "serve-static": "^1.15.0",
-    "unplugin-icons": "^0.17.0",
+    "unplugin-icons": "^0.18.1",
     "vite": "4.5.0",
     "vite-ssg": "^0.23.3",
     "vite-svg-loader": "^4.0.0",
