@@ -9,15 +9,15 @@
     </p>
     <div class="flex flex-wrap mt-8 -m-2">
       <a class="bg-purple-500 btn hover:bg-purple-600" href="https://github.com/amir20">
-        <div class="i-ph-github-logo-bold mr-2"></div>
+        <div class="i-ph-github-logo-bold"></div>
         <span>GitHub</span>
       </a>
       <a class="bg-blue-500 btn hover:bg-blue-600" href="https://www.linkedin.com/in/amirraminfar">
-        <div class="i-ph-linkedin-logo-bold mr-2"></div>
+        <div class="i-ph-linkedin-logo-bold"></div>
         <span>LinkedIn</span>
       </a>
       <a class="bg-green-600 btn hover:bg-green-700" href="https://stackoverflow.com/users/419075/amir-raminfar">
-        <div class="i-ph-stack-overflow-logo-bold w-4 h-4 mr-2"></div>
+        <div class="i-ph-stack-overflow-logo-bold"></div>
         <span>Stack Overflow</span>
       </a>
     </div>
@@ -40,6 +40,6 @@ export default {
 </script>
 <style scoped>
 .btn {
-  @apply text-white py-2 px-4 m-2 rounded-3xl inline-flex items-center no-underline bg-opacity-90 hover:bg-opacity-100 transition-colors;
+  --at-apply: text-white py-2 px-4 m-2 rounded-3xl inline-flex items-center no-underline bg-opacity-90 hover: bg-opacity-100 transition-colors gap-2;
 }
 </style>

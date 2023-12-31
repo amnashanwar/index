@@ -20,7 +20,7 @@
 import { multipier } from "../components/Waves.vue";
 import { useHead } from "@vueuse/head";
 
-const images = import.meta.globEager("/src/images/*.png");
+const images = import.meta.glob("/src/images/*.png", { eager: true });
 
 export default {
   data() {
