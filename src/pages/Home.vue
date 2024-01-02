@@ -1,6 +1,6 @@
 <template>
   <div class="w-auto md:w-3/4 lg:w-1/2">
-    <h1 class="mb-8 text-5xl">Hi there, my name is Amir.</h1>
+    <h1 class="mb-8 text-5xl">Hi there, my name is Amnash.</h1>
     <p class="text-lg font-light">
       I am a software engineer, mentor and parent in San Francisco. I am currently an engineering manager at
       <a href="https://about.google" target="_blank" rel="noopener">Google</a>. Previously, I have worked at
